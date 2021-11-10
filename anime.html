@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IttachiUchiha</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+     
+        .progress{
+            background-color: red;
+            height: 3px;
+            animation: load 1s ease-in-out 0s 1 alternate;
+        }
+        @keyframes load {
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 60vh;
+            }
+            100%{
+                width: 100vh;
+            }
+           
+        }
+       
+      
+        header{display: flex;
+justify-content:center;
+            height: 10vh;
+            width: 100vw;
+            background-color:black;
+            color:red;
+           border-radius: 2px;
+           border:2px black solid ;
+        }
+        body{background-color: black;}
+
+        ul{
+            padding: 9px;
+            
+        }
+        li{ font-size: large;
+    display: inline;
+    list-style-position: sticky;
+   
+    list-style: none;
+    z-index: 1;
+    padding: 0px 80px;
+
+        }
+        .img{
+   display: inline-block;
+  
+    
+   
+    animation: rotate 1s ease-in-out 0s infinite alternate;
+            display: inline-block;
+  
+        }
+       
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+
+         
+        }
+        .box1{
+            padding: 2px;
+            margin: 2px;
+            color:black;
+            background-color:red;
+            display: inline-block;
+            height: 0vh;
+            width: 10vw;
+            font-size: 156%;
+            font-family: fantasy;
+            animation: height 1s ease-in-out 2s infinite alternate;
+        }
+        @keyframes height {
+            0%{
+                height:0vh;
+            }
+            50%{
+                height:11vh;
+            }
+            100%{
+                height:14vh;
+            }
+            
+        }
+        .box2{
+            display: inline-block;
+            height: 16vh;
+            width: 89vw;
+            color:red;
+            background-color: black;
+            font-size: 227%;
+            font-style: italic;
+         
+           
+        }
+        .box3{
+            height: 23vh;
+            width:89%;
+            display: inline-block;
+            background-color: black;
+            color: red;
+            font-size: 85%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+     .slider{
+         background-color: black;
+         height: 100vh;
+     overflow: hidden;
+         margin: auto;
+         display: flex;
+         justify-content: center;
+        }
+     @keyframes slide1 {
+         0%{
+            transform: translate(36vw);
+         }
+         100%{
+            transform: translate(120vw);
+         }
+
+         
+        }
+   
+     .img1{
+        padding: 0px 2px 0px 0px;
+         height: 900vh;
+         width:100vw;
+         transform: translate(0vw);
+         animation: slide1 2s forwards 2s;
+
+     } 
+     @keyframes slide2 {
+         0%{
+            transform: translate(-44vw);
+         }
+         100%{
+            transform: translate(0vw);
+         }
+          } 
+        
+ 
+     .img2{ 
+         height: 100vh;
+         width: 100vw;
+         transform: translate(-44vw);
+         animation: slide2 3s forwards 3s;
+         padding: 0px 392px 0px 0px;
+     }
+     @keyframes slide3 {
+         0%{
+            transform: translate(-186vw);
+         }
+         100%{
+            transform: translate(-84vw);
+         }
+          } 
+     
+     .img3{
+         transform: translate(-186vw);
+         height: 90vh;
+         width: 100vw;
+         animation:  slide3 20s forwards 10s;;
+         
+     }
+   
+
+         
+     
+     
+        
+      
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    
+        <header>
+            <div class="icon"></div>
+            <nav>
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="img"><img src="sharingan.jpg" 
+           width="120px" alt="img"></div> <div class="box2"><h1>Itachi Uchiha</h1></div>
+           <br>
+           <br>
+           <br>
+        <div class="box1">You Are Under My Genjutsu</div><div class="box3"><p><b>Itachi Uchiha was a member of Uchiha Clan From Konohagakure Village..After sometime,he distances himself from his clan and joined Abu to protect his Village from enemies..After he knew the truth about his father plan which was to capture nine tails and distroy leaf village to became hokage..After that he betrayed his uchiha clan to safe the village,He massacre whole uchiha clan..He was pure Genious..</b></p>
+        </div>
+        
+        <div class="slider">
+            <div class="img1">  <img src="ittachhi.png" alt="img"></div>
+            <div class="img2">  <img src="itachii.2.jpg" alt="img"></div>
+            <div class="img3">  <img src="itachi3.jpg" alt="img"></div>
+        </div>
+    </main>
+</body>
+</html>
