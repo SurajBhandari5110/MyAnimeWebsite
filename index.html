@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,15 +8,31 @@
     <title>IttachiUchiha</title>
     <style>
 
-        *{
-            margin: 0;
-            padding: 0;
+*{
+    margin: 0%;
+    padding:0%;
+}
+nav{
+    font-size: 2em;
+    color: red;
+}
+body{
+    background-color: black;
+    color:red;
+}
+li{
+    
+    display:inline;
+    padding: 10%;
+}
+    
+        
+        header{
+            padding-bottom:2%;
         }
-     
-        .progress{
-            background-color: red;
-            height: 3px;
-            animation: load 1s ease-in-out 0s 1 alternate;
+        ul{
+            
+            animation: load 1s ease-in-out 0s 1s alternate;
         }
         @keyframes load {
             0%{
@@ -29,96 +46,37 @@
             }
            
         }
-       
+         
+   .eyes{
+    display: inline-block;
       
-        header{display: flex;
-justify-content:center;
-            height: 10vh;
-            width: 100vw;
-            background-color:black;
-            color:red;
-           border-radius: 2px;
-           border:2px black solid ;
-        }
-        body{background-color: black;}
-
-        ul{
-            padding: 9px;
-            
-        }
-        li{ font-size: large;
-    display: inline;
-    list-style-position: sticky;
-   
-    list-style: none;
-    z-index: 1;
-    padding: 0px 80px;
-
-        }
-        .img{
-   display: inline-block;
-  
-    
-   
     animation: rotate 1s ease-in-out 0s infinite alternate;
-            display: inline-block;
-  
-        }
-       
-        @keyframes rotate {
-            0%{
-                transform: rotate(0deg);
-            }
-            100%{
-                transform: rotate(360deg);
-            }
+    }
 
-         
-        }
-        .box1{
-            padding: 2px;
-            margin: 2px;
-            color:black;
-            background-color:red;
-            display: inline-block;
-            height: 0vh;
-            width: 10vw;
-            font-size: 156%;
-            font-family: fantasy;
-            animation: height 1s ease-in-out 2s infinite alternate;
-        }
-        @keyframes height {
-            0%{
-                height:0vh;
-            }
-            50%{
-                height:11vh;
-            }
-            100%{
-                height:14vh;
-            }
-            
-        }
-        .box2{
-            display: inline-block;
-            height: 16vh;
-            width: 89vw;
-            color:red;
-            background-color: black;
-            font-size: 227%;
-            font-style: italic;
-         
-           
-        }
-        .box3{
-            height: 23vh;
-            width:89%;
-            display: inline-block;
-            background-color: black;
-            color: red;
-            font-size: 85%;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+h1{
+   font-size: 4em; 
+   
+
+}
+.box1{
+    font-size:2em;
+   
+    font-family: italic;
+}
+.box3{
+    font-family: fantasy;
+    font-size: 1em;
+    
+}
+        
      .slider{
          background-color: black;
          height: 100vh;
@@ -189,32 +147,50 @@ justify-content:center;
     </style>
 </head>
 <body>
-    <div class="progress"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a> </li>
+                <li><a href="About.html">About</a> </li>
+                <li><a href="Service.html">Service</a> </li>
+                
+            </ul>
+        </nav>
+    </header>
     
-        <header>
-            <div class="icon"></div>
-            <nav>
-                <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>CONTACT</li>
-                </ul>
-            </nav>
-        </header>
+        <table>
+            <tr><td>
+                <div class="eyes"><img src="sharingan.png" 
+                    alt="img"> </div>
+            </td>
+            <td><h1>Itachi Uchiha</h1></td></tr>
+            <br>
+            <tr>
+                <tr>
+                    <td>
+                        <div class="box1">Story of Ittachi Uchiha:</div>
+
+                    </td>
+                    <td>
+<div class="box3">
+  
+        Itachi Uchiha was a member of Uchiha Clan From Konohagakure Village..After sometime,he distances himself from his clan and joined Abu to protect his Village from enemies..After he knew the truth about his father plan which was to capture nine tails and distroy leaf village to became hokage..After that he betrayed his uchiha clan to safe the village,He massacre whole uchiha clan..He was pure Genious..
     
-        <div class="img"><img src="sharingan.jpg" 
-           width="120px" alt="img"></div> <div class="box2"><h1>Itachi Uchiha</h1></div>
-           <br>
-           <br>
-           <br>
-        <div class="box1">You Are Under My Genjutsu</div><div class="box3"><p><b>Itachi Uchiha was a member of Uchiha Clan From Konohagakure Village..After sometime,he distances himself from his clan and joined Abu to protect his Village from enemies..After he knew the truth about his father plan which was to capture nine tails and distroy leaf village to became hokage..After that he betrayed his uchiha clan to safe the village,He massacre whole uchiha clan..He was pure Genious..</b></p>
+       
+    
+    
         </div>
+                    </td>
+                </tr>
+                </table>
         
         <div class="slider">
             <div class="img1">  <img src="ittachhi.png" alt="img"></div>
             <div class="img2">  <img src="itachii.2.jpg" alt="img"></div>
             <div class="img3">  <img src="itachi3.jpg" alt="img"></div>
         </div>
-    </main>
+    
 </body>
 </html>
+
+   
