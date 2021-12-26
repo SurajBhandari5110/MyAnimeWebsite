@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+nav{
+    font-size: 1rem;
+    color: red;
+}
+li{
+    
+    display:inline;
+    padding: 10%;
+}
+    
+        
+        header{
+            padding-bottom:2%;
+        }
+        ul{
+            
+            animation: load 1s ease-in-out 0s 1 alternate;
+        }
+        @keyframes load {
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 60vh;
+            }
+            100%{
+                width: 100vh;
+            }
+           
+        }
+         
+   .eyes{
+    display: inline-block;
+      
+    animation: rotate 1s ease-in-out 0s infinite alternate;
+    }
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+h1{
+   font-size: 4em; 
+   
+
+}
+.box1{
+    font-size:2em;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box3{
+    font-family: fantasy;
+    font-size: 1em;
+    width:100%;
+    
+}
+
+.img2{
+
+    background-image: url("itachii.2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+  
+    background-image: url("itachi3.jpg");
+    background-size:cover;
+}
+body{
+    color: red;
+    background-color: black;
+}
+footer{
+    height:10rem;
+    width: 60rem;
+ }
+ .socials{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 1rem 0 3rem 0;
+   
+ }
+ 
+ .socials li{
+     margin: 0 1rem;
+ }
+ 
+ .socials a{
+     text-decoration: none;
+     color: rgb(177, 136, 136);
+   
+     padding: 1rem;
+     
+ }
