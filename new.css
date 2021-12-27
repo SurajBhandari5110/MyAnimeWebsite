@@ -80,26 +80,30 @@ body{
     background-color: black;
 }
 footer{
-    height:10rem;
-    width: 60rem;
+    height:20%;
+    width:40%;
+    font-size: 90%;
+   
  }
  .socials{
      list-style: none;
      display: flex;
-     align-items: center;
-     justify-content: center;
-     margin: 1rem 0 3rem 0;
+     align-items: right;
+     justify-content: left;
+     
    
  }
  
+ 
  .socials li{
-     margin: 0 1rem;
+     margin: 0 10%;
  }
  
  .socials a{
      text-decoration: none;
      color: rgb(177, 136, 136);
    
-     padding: 1rem;
+     padding: 1%;
      
  }
+ 
